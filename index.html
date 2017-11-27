@@ -10,16 +10,27 @@
     <br>
     <p id="xmas" style="color: green; font-weight: bolder; font-size: 1.5em; text-align: center">how many days left&quest;</p>
 
-    <div class="buttonToggle" style="text-align: center">
+    <div class="buttonEx" style="text-align: center">
       <button type="button" name="button" onclick="changeText()">Find out</button>
     </div>
 
-    <img id="santa" src="http://piq.codeus.net/static/media/userpics/piq_155228_400x400.png" alt="santa claus" style="width: 20%; height: 20%">
+    <div class="santaEx" style="margin-top: 10px; text-align: center">
+      <img id="santa" src="http://piq.codeus.net/static/media/userpics/piq_155228_400x400.png" alt="santa claus" style="width: 20%; height: 20%">
+      <br>
+      <button type="button" name="santaButton" onclick="toggleSanta()">Santa</button>
 
-    <button type="button" name="santaButton" onclick="toggleSanta()">Santa</button>
+      <button type="button" name="santaButton" onclick="togglePizza()">Not Santa</button>
+    </div>
 
-    <button type="button" name="santaButton" onclick="togglePizza()">Not Santa</button>
-
+    <form class="" action="" method="">
+      <fieldset>
+        <legend>Secret Santa</legend>
+          <input type="text" name="firstName" value="" placeholder="First Name" size="30">
+          <input type="text" name="lastName" value="" placeholder="Last Name" size="30">
+          <br>
+          <input type="submit" name="" value="Submit">
+      </fieldset>
+    </form>
     <script src="js/script.js"></script>
   </body>
 </html>
